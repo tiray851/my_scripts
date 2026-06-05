@@ -4,11 +4,13 @@
 
 ## Скрипты
 
-1. `link_checker.py` — проверяет все ссылки на сайте и сообщает, какие из них рабочие, а какие нет.
-2. `email_scraper.py` — собирает email-адреса с указанных страниц сайта.
+- `link_checker.py` — проверяет все ссылки на сайте и сообщает, какие из них рабочие, а какие нет.
+- `email_scraper.py` — собирает email-адреса с указанных страниц сайта.
+- `port_scanner.py` — проверяет открытые порты на указанном хосте.
 
-## Как использовать
+## Установка
 
-1. Скопируйте репозиторий:
-   ```bash
-   git clone https://github.com/tiray851/my_scripts.git
+```bash
+git clone https://github.com/tiray851/my_scripts.git
+cd my_scripts
+pip install requests
